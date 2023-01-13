@@ -1,6 +1,7 @@
 package ru.tsybulko.task3.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import ru.tsybulko.task3.model.*;
 import ru.tsybulko.task3.repository.OfferRepository;
 import ru.tsybulko.task3.repository.OfficeRepository;
@@ -9,6 +10,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
 
+@Service
 public class LeasingOfferService implements OfferService {
 
     private final OfferRepository offerRepository;

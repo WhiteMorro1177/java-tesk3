@@ -3,6 +3,8 @@ package ru.tsybulko.task3.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import org.springframework.boot.jackson.JsonComponent;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.UUID;

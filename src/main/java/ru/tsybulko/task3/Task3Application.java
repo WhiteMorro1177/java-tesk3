@@ -29,6 +29,12 @@ public class Task3Application {
             OfficeRepository officeRepository,
             PositionRepository positionRepository) {
         return args -> {
+            positionRepository.saveAll(List.of(
+                    new Position(UUID.randomUUID(), "Useless manager", 50000),
+                    new Position(UUID.randomUUID(), "Main manager", 85000),
+                    new Position(UUID.randomUUID(), "Manager", 60000),
+                    new Position(UUID.randomUUID(), "Bartender", 120000)
+            ));
             clientRepository.saveAll(List.of(
                     new Client(
                             UUID.randomUUID(),
