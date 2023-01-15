@@ -1,9 +1,6 @@
 package ru.tsybulko.task3.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import ru.tsybulko.task3.model.Client;
-import ru.tsybulko.task3.model.Stuff;
-
 import java.util.*;
 
 public class Statistic {

@@ -15,8 +15,8 @@ public class NewOfferParameters {
     @JsonProperty("ending_date")
     private LocalDate endingDate;
 
-    public NewOfferParameters() {  }
 
+    public NewOfferParameters() {  }
     public NewOfferParameters(UUID clientId, UUID stuffId, LocalDate startDate, LocalDate endingDate) {
         this.clientId = clientId;
         this.stuffId = stuffId;

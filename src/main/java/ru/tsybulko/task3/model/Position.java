@@ -1,8 +1,6 @@
 package ru.tsybulko.task3.model;
 
 import jakarta.persistence.*;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
